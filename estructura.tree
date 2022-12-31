@@ -1,4 +1,4 @@
-Proyecto base con un diseño de arquitectura MVC
+Proyecto base
 └── base-project
   ├── src   ............................ Carpeta raiz de la aplicacion backend.
   │  ├── app.js   ...................... Aplicacion principal, punto de entrada a las metodos del api que incluye su configuracion y rutas.
