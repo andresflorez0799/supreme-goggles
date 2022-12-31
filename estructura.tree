@@ -10,13 +10,14 @@ Proyecto base
   │  │  │ ├── auth.route.js   .......... Configuracion de las rutas para el componente dentro del api, asi como la proteccion y uso de los middleware requeridos
   │  │  │ └── auth.service.js   ........ Logica y algoritmos para el correcto funcionamiento de los casos de uso del componente
   │  │  └── test    .................... Ejemplo de un componente llamado Test.
-  │  │    ├── test.controller.js    .... Controlador de las peticiones del cliente, contiene la firma de los metodos disponibles para consumir en el api y se encarga de gestionar los recursos solicitados al service
+  │  │    ├── test.controller.js    .... Controlador de las peticiones del cliente, contiene la firma de los metodos disponibles para consumir en el api y 
+  │  │    │                              se encarga de gestionar los recursos solicitados al service.
   │  │    ├── test.model.js   .......... Representacion del modelo o unidad logica de negocio del componente
   │  │    ├── test.route.js   .......... Configuracion de las rutas para el componente dentro del api, asi como la proteccion y uso de los middleware requeridos
   │  │    └── test.service.js   ........ Logica y algoritmos para el correcto funcionamiento de los casos de uso del componente
   │  ├── config   ...................... Folder o agrupacion de configuraciones generales para el funcionamiento del app
   │  │  ├── endpoints.js    ............ example
-  │  │  └── secrets.js    .............. Representacion de los parametros de configuracion especial o delicada presentes en el .env ó configuraciones de entorno, esto para delegar esta lectura desde este archivo
+  │  │  └── secrets.js    .............. Representacion de los parametros de configuracion especial o delicada presentes en el .env ó configuraciones de entorno. 
   │  ├── enums    ...................... Folder con la agrupacion de Enumeradores de la aplicaciones
   │  │  └── httpCodes.js    ............ enumerador con los codigos http
   │  ├── helpers    .................... Agrupacion de archivos utilitarios y de forma global para la aplicacion
